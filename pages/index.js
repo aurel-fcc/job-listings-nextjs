@@ -6,29 +6,22 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title></title>
-        <meta name="description" content="" />
+        <title>Job listings with Next.js</title>
+        <meta name="description" content="Job listings with Next.js" />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap"
+          rel="stylesheet"
+        />
+
       </Head>
 
       <main className={styles.main}>
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+
       </footer>
     </div>
   )
